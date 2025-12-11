@@ -77,21 +77,22 @@ colab link: https://colab.research.google.com/drive/10H0PZXUe3yz2NyOwckRuoo_UqfJ
 
 # Output
 ~~~
-Enter the mean inter arrival time of objects from Feeder (in secs)12
-Enter the mean inter servie time of Lathe Machine (in secs):1
-Enter the Additional time taken for the Robot (in secs):7
-----------------------------------------
-Single Server with Infinite Capacity-(M/M/1):(00/FIFO)
-----------------------------------------
-The mean arrival rate per second: 0.08 
-The mean service rate per second: 0.12 
-Average number of objects in the system: 2.00
-Average number of objects in the conveyer: 1.33
-Average time spent by an object in the system: 24.00
-Average time spent by an object in the conveyer: 16.00
-Probability that the system is busy: 0.67 
-Probability that the system is empty: 0.33 
-----------------------------------------
+Enter the mean inter arrival time of objects from feeder (in secs):10
+Enter the mean inter service time of lathe machine (in secs):1
+Enter the Additional time taken for the robot (in secs):7
+Number of service centres:2
+------------------------------------------------
+Multiple Server with infinite capacity- (M/M/c):(00/FIFO)
+----------------------------------------------------
+The mean arrival rate per second: 0.10
+The mean service rate per second: 0.12
+Average number of objects in the system: 0.95
+Average numner of objects in the conveyor: 0.15
+Average waiting time of an object in the system: 9.52 secs
+Average waiting time of an object in the conveyor: 9.52 secs
+Probability that the system is busy: 0.40
+Probability that the system is empty:0.60 
+-----------------------------------------------------
 ~~~
 
 # Result
